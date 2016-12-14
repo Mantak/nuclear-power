@@ -55,7 +55,7 @@ export default function (injectDeps, {FlowRouter}) {
   FlowRouter.notFound = {
     action() {
       alert("你找的地址不存在")
-      FlowRouter.go("/")
+      FlowRouter.go("/v3/home")
     }
   };
 }
